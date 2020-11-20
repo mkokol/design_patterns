@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# dev IDE
+.idea
+*.swp
+
+# mac conf file
+.DS_Store
+
+# virtual environment dependencies
+venv
+.env
