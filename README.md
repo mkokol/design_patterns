@@ -7,6 +7,7 @@ Practicing design patterns from a book: "Design Patterns, Elements of Reusable O
 This project has the next design patterns:
 
   - Abstract Factory
+  - Builder
 
 ### Requirements
 
@@ -24,8 +25,13 @@ Switch to your virtual environment:
 
 ### Launching design patters 
 
-   - Abstract Factory
-   
+  - Abstract Factory
+
          cd abstract_factory
          python app.py --type=1
          python app.py --type=2
+
+  - Builder
+
+         cd builder
+         python app.py
