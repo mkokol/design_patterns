@@ -8,6 +8,7 @@ This project has the next design patterns:
 
   - Abstract Factory
   - Builder
+  - Factory Method
 
 ### Requirements
 
@@ -35,3 +36,9 @@ Switch to your virtual environment:
 
          cd builder
          python app.py
+
+  - Factory Method
+
+         cd factory_method
+         python app.py -t=a
+         python app.py -t=b
