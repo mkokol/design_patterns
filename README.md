@@ -11,6 +11,8 @@ This project has the next design patterns:
   - Factory Method
   - Prototype
   - Singleton
+  
+  - Adapter
 
 ### Requirements
 
@@ -53,4 +55,9 @@ Switch to your virtual environment:
   - Singleton
 
          cd singleton
+         python app.py
+
+  - Adapter
+
+         cd adapter
          python app.py
