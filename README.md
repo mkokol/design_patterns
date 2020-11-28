@@ -10,6 +10,7 @@ This project has the next design patterns:
   - Builder
   - Factory Method
   - Prototype
+  - Singleton
 
 ### Requirements
 
@@ -47,4 +48,9 @@ Switch to your virtual environment:
   - Prototype
 
          cd prototype
+         python app.py
+
+  - Singleton
+
+         cd singleton
          python app.py
