@@ -14,6 +14,7 @@ This project has the next design patterns:
     - Singleton
   - Structural Patterns:
     - Adapter
+    - Bridge
 
 ### Requirements
 
@@ -62,3 +63,9 @@ Switch to your virtual environment:
 
          cd structural/adapter
          python app.py
+
+  - Bridge
+
+         cd structural/bridge
+         python app.py -t=svg
+         python app.py -t=canvas
