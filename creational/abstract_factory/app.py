@@ -7,7 +7,7 @@ class App():
     def __init__(self):
         parser = argparse.ArgumentParser()
         parser.add_argument(
-            '--type',
+            '--type', '-t',
             required=True,
             help='1 and 2 product type are available.',
             choices=['1', '2']

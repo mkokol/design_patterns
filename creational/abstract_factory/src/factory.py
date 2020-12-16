@@ -7,11 +7,11 @@ from src.product.product_b import AbstractProductB, ProductB1, ProductB2
 class AbstractFactory(ABC):
     @abstractmethod
     def create_product_a(self) -> AbstractProductA:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def create_product_b(self) -> AbstractProductB:
-        raise NotImplementedError
+        pass
 
 
 class ConcreteFactory1(AbstractFactory):

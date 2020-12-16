@@ -1,21 +1,25 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from typing import Optional
 
 from src.product import Description, Document, Text, Title
 
 
 class AbstractBuilder(ABC):
+    @abstractmethod
     def build(self) -> Document:
-        raise NotImplementedError
+        pass
 
+    @abstractmethod
     def set_title(self, title: str):
-        raise NotImplementedError
+        pass
 
+    @abstractmethod
     def set_description(self, description: str):
-        raise NotImplementedError
+        pass
 
+    @abstractmethod
     def set_text(self, text: str):
-        raise NotImplementedError
+        pass
 
 
 class DocumentBuilder(AbstractBuilder):

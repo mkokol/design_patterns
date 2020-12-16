@@ -6,13 +6,14 @@ Practicing design patterns from a book: "Design Patterns, Elements of Reusable O
 
 This project has the next design patterns:
 
-  - Abstract Factory
-  - Builder
-  - Factory Method
-  - Prototype
-  - Singleton
-  
-  - Adapter
+  - Creational Patterns:
+    - Abstract Factory
+    - Builder
+    - Factory Method
+    - Prototype
+    - Singleton
+  - Structural Patterns:
+    - Adapter
 
 ### Requirements
 
@@ -32,32 +33,32 @@ Switch to your virtual environment:
 
   - Abstract Factory
 
-         cd abstract_factory
+         cd creational/abstract_factory
          python app.py --type=1
          python app.py --type=2
 
   - Builder
 
-         cd builder
+         cd creational/builder
          python app.py
 
   - Factory Method
 
-         cd factory_method
+         cd creational/factory_method
          python app.py -t=a
          python app.py -t=b
 
   - Prototype
 
-         cd prototype
+         cd creational/prototype
          python app.py
 
   - Singleton
 
-         cd singleton
+         cd creational/singleton
          python app.py
 
   - Adapter
 
-         cd adapter
+         cd structural/adapter
          python app.py
