@@ -15,6 +15,7 @@ This project has the next design patterns:
   - Structural Patterns:
     - Adapter
     - Bridge
+    - Composite
 
 ### Requirements
 
@@ -69,3 +70,8 @@ Switch to your virtual environment:
          cd structural/bridge
          python app.py -t=svg
          python app.py -t=canvas
+
+  - Composite
+
+         cd structural/composite
+         python app.py
