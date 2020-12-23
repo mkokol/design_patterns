@@ -16,6 +16,7 @@ This project has the next design patterns:
     - Adapter
     - Bridge
     - Composite
+    - Decorator
 
 ### Requirements
 
@@ -74,4 +75,9 @@ Switch to your virtual environment:
   - Composite
 
          cd structural/composite
+         python app.py
+
+  - Decorator
+
+         cd structural/decorator
          python app.py
