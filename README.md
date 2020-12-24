@@ -17,6 +17,7 @@ This project has the next design patterns:
     - Bridge
     - Composite
     - Decorator
+    - Facade
 
 ### Requirements
 
@@ -80,4 +81,9 @@ Switch to your virtual environment:
   - Decorator
 
          cd structural/decorator
+         python app.py
+
+  - Facade
+
+         cd structural/facade
          python app.py
