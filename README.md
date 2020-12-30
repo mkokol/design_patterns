@@ -18,6 +18,7 @@ This project has the next design patterns:
     - Composite
     - Decorator
     - Facade
+    - Flyweight
 
 ### Requirements
 
@@ -87,3 +88,8 @@ Switch to your virtual environment:
 
          cd structural/facade
          python app.py
+
+  - Flyweight
+
+        cd structural/flyweight
+        python app.py
