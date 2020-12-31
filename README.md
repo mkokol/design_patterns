@@ -19,6 +19,7 @@ This project has the next design patterns:
     - Decorator
     - Facade
     - Flyweight
+    - Proxy
 
 ### Requirements
 
@@ -92,4 +93,9 @@ Switch to your virtual environment:
   - Flyweight
 
         cd structural/flyweight
+        python app.py
+
+  - Proxy
+
+        cd structural/proxy
         python app.py
